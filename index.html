@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Maths quiz</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="quiz_game_login.js"></script>
+</head>
+<body class="body_background">
+    <center>
+   <span>
+       <h1 style="font-family: calc(); color:#fffdfd; background-color:rgb(102, 26, 26) ;" >Maths Quiz</h1>
+        <br>
+        <br>
+        <div style="background-color: azure; width: 300; height: 300;" class="col-lg-6 col-md-6 col-sm-6 col-xs-6 div_tag">
+        <h3>Login for 1st player </h3>
+        <br>
+        <br>
+        <input type="text" placeholder="Enter your name" style="color: black; width: 500;" class="input" id="first_player_name">
+        <br>
+        <br>
+        <input type="text" placeholder="Enter your phone no." style="color: black;" class="input"
+        id="first_player_no">
+        <br>
+        <br>
+        <span>
+        <button onclick="verify()">Verify phone number</button>
+        <br>
+        <br>
+        <label class="verify_label" style="color: lightgreen;"></label>
+        </span>
+        <br>
+        <br>
+        </div>
+    </span>
+    <br>
+    <br>
+    <br>
+    <span>
+        <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <div style="background-color: azure; width: 300; height: 300;" class="col-lg-6 col-md-6 col-sm-6 col-xs-6 div_tag">
+            <br>
+         <br>
+         <h3>Login for 2nd player </h3>
+         
+         <input type="text" placeholder="Enter your name" style="color:black; width: 500;" class="input" id="second_player_name">
+         <br>
+
+         <br>
+         <input type="text" placeholder="Enter your phone no." style="color:BLACK;" class="input"
+         id="second_player_no">
+         <br>
+         <br>
+         <span>
+         <button onclick="verify()">Verify phone number</button>
+         <br>
+         <br>
+         <label class="verify_label" style="color: lightgreen;"></label>
+         </span>
+         <br>
+         <br>
+         </div>
+         <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     </span>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <button onclick="addUser()" style="background-color: chocolate; width: 300px;">Login</button>
+     <label style="color: red; background-color: white;" class="note"></label>
+</center>
+</body>
+</html>
